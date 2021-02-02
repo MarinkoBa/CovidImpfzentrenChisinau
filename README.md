@@ -1,6 +1,6 @@
 # CovidImpfzentrenChisinau
 
-<p>
+
 **Datenbeschaffung**
 
 - neuen Ordner anlegen, indem alle Daten dieses Projekts gespeichert werden
