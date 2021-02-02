@@ -12,7 +12,7 @@
 
 **QGIS**
 
-- die Layer "Chisinau_Maske" und "original_buildings" in QGIS laden
+- die Layer "chisinau_maske" und "original_buildings" in QGIS laden
 
 - den herundergeadenen "QGISModelPart1" öffnen und ausführen
 
@@ -20,7 +20,7 @@
 
 **GRASS GIS**
 
-- GASS GIS öffnen und mit "cd" zum richtigen Ordner navigieren 
+- GRASS GIS öffnen und mit "cd" zum richtigen Ordner navigieren 
 
 - Batch-Script in die GRASS GIS Konsole reinladen und ausführen 
 
