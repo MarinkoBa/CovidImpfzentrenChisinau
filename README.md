@@ -20,7 +20,9 @@
 
 **GRASS GIS**
 
-- GRASS GIS öffnen und mit "cd" zum richtigen Ordner navigieren 
+- erzeuge eine neue Location mit dem Koordinatensystem ESPG: 32635
+
+- GRASS GIS öffnen und mit "cd" zum richtigen Ordner (in dem alle heruntegeladenen Daten sind) navigieren 
 
 - Batch-Script in die GRASS GIS Konsole reinladen und ausführen 
 
@@ -32,6 +34,17 @@
 
 
 - den heruntergeladenen "QGISModelPart2" öffnen und ausführen
+- Nach der Ausführung sollte folgender temporärer Layer erzeugt werden: "buildings_final_med_pub_norrm.shp",
+der als GeoPackage im Ordner mit den restlichen Daten permanent gespeichert werden soll
+- im nächsten Schritt muss man den gerade gespeicherten GeoPackage Layer in QGIS reinladen, da dieser für die MCDA Analyse verwendet wird
 
 - in den QGIS Erweiterungen "vectorMCDA" installieren
-- zur Anwendung verwenden wir ausschließlich folgende implementations: "geoTOPSIS" und "geoWeightedSum"
+- zur Anwendung verwenden wir ausschließlich folgende Implementations: "geoTOPSIS" und "geoWeightedSum"
+- durchprobieren verschiedene Werte für die Gewichte bei den Faktoren der Algorithmen (nur normalisierte "norm" Spalten als Faktoren nutzen, alle anderen Spalten mit Rechtsklick aus der Tabelle entfernen)
+- anschließend auf Apply drücken 
+- unten links auf Analysis klicken
+- Anzahl der Klassen auswählen (z.B. 20)
+- auf Load maps klicken
+- neuer Layer wurde erstellt (geoWSM) mit der Spalte geoWSM 
+- absteigend Sortieren nach der Spalte geoWSM 
+- top Ergebnisse sind am besten geeignet
