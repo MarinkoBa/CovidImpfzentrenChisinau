@@ -5,7 +5,7 @@
 
 - neuen Ordner anlegen, indem alle Daten dieses Projekts gespeichert werden
 
-- alle gegebenen Daten herunterladen und in diesem Ordner speichern:
+- alle gegebenen Daten herunterladen und in diesem (gleichen) Ordner speichern:
 - Heibox: https://heibox.uni-heidelberg.de/d/c20625a91efc4cada197/
 - GitHub Respository: "QGISModelPart1", Batch-Script: "calculate_distances_grassgis" und "QGISModelPart2"
 ##
