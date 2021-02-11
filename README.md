@@ -12,11 +12,11 @@
 
 **QGIS**
 
-- die Layer "chisinau_maske" und "original_buildings" in QGIS laden
+- die Layer "chisinau_maske.shp" und "original_buildings.shp" in QGIS laden
 
 - den herundergeadenen "QGISModelPart1" öffnen und ausführen
 
-- das Enderergebnis des Modelbuilders, "buildings_final" im richtigen Ordner speichern
+- das Enderergebnis des Modelbuilders, "buildings_final.shp" im richtigen Ordner speichern
 
 **GRASS GIS**
 
